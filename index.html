@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- ✅ Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">Brand</a>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+    <center>
+    <img src="profile1.jpg" alt="pic" style="width:150px;height:150px;" style="border-radius: 25%;">
+    </center>
+      <h1>Welcome to Our Amazing Platform</h1>
+      <p>Experience the future of digital innovation with our cutting-edge solutions</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary">Get Started</button>
+        <button class="btn btn-secondary">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        We are a forward-thinking company creating innovative solutions 
+        that transform businesses in the digital age.
+      </p>
+      <p>
+        Our team combines creativity and technical excellence 
+        to deliver results beyond expectations.
+      </p>
+      <div class="about-stats">
+        <div class="stat"><h3>500+</h3><p>Projects Completed</p></div>
+        <div class="stat"><h3>50+</h3><p>Happy Clients</p></div>
+        <div class="stat"><h3>5+</h3><p>Years Experience</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Services -->
+  <section id="services" class="section bg-dark">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">🚀 <h3>Web Development</h3><p>Modern custom web apps.</p></div>
+        <div class="service-card">📱 <h3>Mobile Apps</h3><p>iOS & Android solutions.</p></div>
+        <div class="service-card">🎨 <h3>UI/UX Design</h3><p>Clean and intuitive designs.</p></div>
+        <div class="service-card">☁️ <h3>Cloud Solutions</h3><p>Scalable cloud infrastructure.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Portfolio -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+
+        <!-- Full Stack -->
+        <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp" target="_blank" class="portfolio-item">
+          <img src="fswd.jpg" alt="Full Stack Tutorial" class="portfolio-image">
+          <div class="portfolio-content">
+            <h3>Full Stack Tutorial</h3>
+            <p>Learn Full Stack Development at W3Schools</p>
+          </div>
+        </a>
+
+        <!-- Web Application Dev -->
+        <a href="https://www.geeksforgeeks.org/web-development/" target="_blank" class="portfolio-item">
+          <img src="wad.png" alt="Web Application Development" class="portfolio-image">
+          <div class="portfolio-content">
+            <h3>Web Application Development</h3>
+            <p>Explore Web Dev Guides at GeeksforGeeks</p>
+          </div>
+        </a>
+
+        <!-- Cloud Computing -->
+        <a href="https://www.geeksforgeeks.org/cloud-computing/" target="_blank" class="portfolio-item">
+          <img src="cc.jpg" alt="Cloud Computing" class="portfolio-image">
+          <div class="portfolio-content">
+            <h3>Cloud Computing</h3>
+            <p>Understand Cloud at GeeksforGeeks</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Contact -->
+  <section id="contact" class="section bg-dark">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's Talk</h3>
+          <p>We’d love to hear from you. Share your ideas with us.</p>
+          <p>📧 kusumakesari@gmail.com</p>
+          <p>📞 +91 6281010415</p>
+          <p>📍 RTC Colony 5th Line, Guntur</p>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Script -->
+  <script src="script.js"></script>
+</body>
+</html>
